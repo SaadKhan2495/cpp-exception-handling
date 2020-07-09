@@ -22,3 +22,7 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 project(noexcept)
 file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/Noexcept.cpp)
 add_executable(${PROJECT_NAME} ${SOURCES})
+
+project(try-catch-nested)
+file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/TryCatchNested.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
