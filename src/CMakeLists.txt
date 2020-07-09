@@ -14,3 +14,7 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 project(transfer-control)
 file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/TransferControl.cpp)
 add_executable(${PROJECT_NAME} ${SOURCES})
+
+project(exception-not-caught)
+file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/ExceptionNotCaught.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
