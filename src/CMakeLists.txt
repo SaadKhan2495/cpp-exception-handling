@@ -10,3 +10,7 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 project(implicit-conversion)
 file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/ImplicitConversion.cpp)
 add_executable(${PROJECT_NAME} ${SOURCES})
+
+project(transfer-control)
+file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/TransferControl.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
