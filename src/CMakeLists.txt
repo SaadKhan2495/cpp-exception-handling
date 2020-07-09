@@ -26,3 +26,7 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 project(try-catch-nested)
 file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/TryCatchNested.cpp)
 add_executable(${PROJECT_NAME} ${SOURCES})
+
+project(catch-derived-class)
+file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/CatchDerivedClass.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
