@@ -38,3 +38,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/custom_exception_handling
 project(standard-exception)
 file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/StandardException.cpp ${CMAKE_CURRENT_SOURCE_DIR}/StandardException.h)
 add_executable(${PROJECT_NAME} ${SOURCES})
+
+project(runtime-exception)
+file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/RuntimeException.cpp ${CMAKE_CURRENT_SOURCE_DIR}/RuntimeException.h)
+add_executable(${PROJECT_NAME} ${SOURCES})
