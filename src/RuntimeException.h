@@ -7,7 +7,7 @@ class ConfigError : public std::runtime_error {
 
 public:
   ConfigError(int error_number, std::string error_message)
-      : std::runtime_error(error_message) {}
+      : std::runtime_error(error_message), _error_number(error_number) {}
 
   int get_error_number() { return _error_number; }
 };
